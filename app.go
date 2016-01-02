@@ -23,6 +23,9 @@ func main() {
 }
 
 func serveTemplate(w http.ResponseWriter, r *http.Request) {
+    if r.URL.Path == "/" {
+        r.URL.Path = "/index.html"
+    }
 	lp := path.Join("templates", "layout.html")
 	fp := path.Join("templates", r.URL.Path)
 

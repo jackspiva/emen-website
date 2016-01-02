@@ -10,14 +10,99 @@ body {
 
 .thumb {
     margin-bottom: 30px;
-    height: 300px;
-    width: 275px;
-    overflow: hidden;
 }
+
+.thumbnail, .img-responsive, .thumb {
+    height: 300px;
+    width: 255px;
+}
+
+.dylan {
+    background-image: url("/static/img/roster/headshots/dylan.jpg");
+}
+.nick {
+    background-image: url("/static/img/roster/headshots/nick.jpg");
+}
+.skyler {
+    background-image: url("/static/img/roster/headshots/skyler.jpeg");
+}
+.walton {
+    background-image: url("/static/img/roster/headshots/walton.jpeg");
+}
+.eamon {
+    background-image: url("/static/img/roster/headshots/eamon.jpg");
+}
+.torsten {
+    background-image: url("/static/img/roster/headshots/torsten.jpeg");
+}
+.jack {
+    background-image: url("/static/img/roster/headshots/jack.jpg");
+}
+.owen {
+    background-image: url("/static/img/roster/headshots/owen.jpeg");
+}
+.addison {
+    background-image: url("/static/img/roster/headshots/addison.jpeg");
+}
+.alex {
+    background-image: url("/static/img/roster/headshots/alex.jpg");
+}
+.ben {
+    background-image: url("/static/img/roster/headshots/ben.jpg");
+}
+.bryce {
+    background-image: url("/static/img/roster/headshots/bryce.jpeg");
+}
+.charlie {
+    background-image: url("/static/img/roster/headshots/charlie.jpeg");
+}
+.cones {
+    background-image: url("/static/img/roster/headshots/cones.jpeg");
+}
+.dillard {
+    background-image: url("/static/img/roster/headshots/dillard.jpg");
+}
+.eric {
+    background-image: url("/static/img/roster/headshots/eric.png");
+}
+.jam {
+    background-image: url("/static/img/roster/headshots/jam.jpeg");
+}
+.kg {
+    background-image: url("/static/img/roster/headshots/kevin.jpg");
+}
+.morgan {
+    background-image: url("/static/img/roster/headshots/morgan.png");
+}
+.oliver {
+    background-image: url("/static/img/roster/headshots/oliver.jpeg");
+}
+.produce {
+    background-image: url("/static/img/roster/headshots/produce.jpg");
+}
+.tommy {
+    background-image: url("/static/img/roster/headshots/tommy.jpg");
+}
+
+
+
+.thumbnail {
+    background-size: cover;
+    color: black;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.thumb {
+    margin-bottom: 90px;
+}
+
+.picname {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
 
 footer {
     margin: 50px 0;
 }
-/*img {
-    background-size: cover;
-}*/
